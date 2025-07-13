@@ -2,7 +2,7 @@
 
 A desktop application written in C using the GTK+ library. It allows users to manage a simple inventory of books — with features like adding, deleting, updating, and displaying book data stored in a file.
 
-This was a university project developed entirely by me to deepen my understanding of memory management, data structures, and GUI programming in C.
+This was a university project developed by me to deepen my understanding of memory management, data structures, and GUI programming in C.
 
 ---
 
@@ -26,10 +26,8 @@ This was a university project developed entirely by me to deepen my understandin
 
 ---
 
-## 📸 Screenshots
+## 📸 Interface
 
-_You can add screenshots here using `![desc](link)` when available._  
-For now:  
 📌 Interface consists of:
 - Entry fields for title, author, quantity, and price
 - Buttons for performing actions
@@ -38,6 +36,11 @@ For now:
 ---
 
 ## 🚀 How to Run
+### 🧪 Build & Run
+  On Ubuntu/Debian:
+  '''bash
+gcc -o magazyn main.c 'pkg-config --cflags --libs gtk+-3.0'
+./magazyn
 
 ### 🛠️ Prerequisites
 
