@@ -37,11 +37,11 @@ This was a university project developed by me to deepen my understanding of memo
 
 ## 🚀 How to Run
 ### 🧪 Build & Run
-  On Ubuntu/Debian:
-  '''bash
-gcc -o magazyn main.c 'pkg-config --cflags --libs gtk+-3.0'
-./magazyn
-
+  - On Ubuntu/Debian:
+  ```bash
+  gcc -o magazyn main.c 'pkg-config --cflags --libs gtk+-3.0'
+  ./magazyn
+```
 ### 🛠️ Prerequisites
 
 - GTK+ 3 development libraries  
